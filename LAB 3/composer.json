@@ -1,0 +1,11 @@
+{
+    "name": "iti/lab3",
+    "description": "lab work",
+    "license": "MIT",
+    "require": {
+        "endroid/qr-code": "*"
+    }, "autoload": {
+        "classmap": ["classes"],
+        "files": ["config.php", "functions.php"]
+    }
+} 

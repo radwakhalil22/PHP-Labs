@@ -1,0 +1,32 @@
+body{
+    background-color: rgba(105, 12, 228, 0.315);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 350px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.274);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 30px;
+}
+#submit{
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+#fileToUpload{
+    border-radius: 20px;
+    align-self: flex-end;
+}
+h3{
+    font-family: monospace;
+    font-size: 20px;
+}

@@ -37,14 +37,14 @@ function print_confirmation_page(){
 }
 
 function save_to_File(){
-    $fp = fopen("_Saving_File_", "a+");
+    $fp = fopen(_Saving_File_, "a+");
     $written_string = date("M d Y h:i a").",".$_SERVER["REMOTE_ADDR"].",".$_POST["name"]. ",".$_POST["email"];
     fwrite($fp,  $written_string.PHP_EOL);
     fclose($fp);
 }
 
 function convert_file_to_array(){
-    return file("_Saving_File_");
+    return file(_Saving_File_);
 }
 
 function read_from_external_site($site){
